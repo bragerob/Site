@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="scripts/script.js" async></script>
+    <title>Brage's Site</title>
+</head>
+<body>
+<!--–––––––––– H o m e ––––––––––-->
+    <main>
+        <article id="about">
+            <div>
+                <h1 class="marginlessBottom">
+                    Welcome!
+                </h1>
+                <p class="centered italic">
+                    Tuesday September 29th, 2026
+                </p>
+                <p>
+                    This day marks the launch of my personal website! It may seem
+                    a bit empty at the moment, but that is because I'm working on 
+                    some stuff in the background that isn't quite done yet.
+                </p>
+                <p>
+                    For any web coding nerds out there, I'm sorry if my code is 
+                    messy (especially #home being both a grid item <span class=
+                    "italic">and</span> a grid container for some reason), but
+                    unless I feel like looking through it in the future, it will 
+                    probably stay as is (at least it works). 
+                </p>
+                <p>
+                    Despite being told so much about "mobile first" in web 
+                    development, this website is 100% desktop first. Depending 
+                    on when you're reading this, it might not even have a dedicated
+                    mobile CSS file yet. (It will be coming when the functionality
+                    and design is done for desktop)
+                </p>
+                <p>
+                    Anyways, I will probably look for a way to archive these updates
+                    for future reading, but in the meantime, please enjoy the very
+                    limited things this website has to offer. Also if you have any
+                    feedback, you can send me a DM on Bluesky, as I have yet to set
+                    up a proper communications channel d:
+                </p>
+                <p>
+                    Alright that's about it, eat your veggies, stay in school, and
+                    live a fun life.
+                </p>
+            </div>
+        </article>
+        <section id="home">
+            <div id="icons">
+                <!--
+                <div>
+                    <figure ondblclick="workOn()">
+                        <img src="images/icons/icon_folder.svg" ondblclick="">
+                        <figcaption>
+                            My Works
+                        </figcaption>
+                    </figure>
+                </div>
+                -->
+
+                <div>
+                    <a href="https://bsky.app/profile/brage.site" target="_blank">
+                        <figure>
+                            <img src="images/icons/icon_bsky.svg">
+                            <figcaption>
+                                Bluesky
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+
+                <div>
+                    <figure ondblclick="contactOn()">
+                        <img src="images/icons/icon_chat.svg" ondblclick="">
+                        <figcaption>
+                            Contact
+                        </figcaption>
+                    </figure>
+                </div>
+                
+                <div>
+                    <figure ondblclick="aboutOn()">
+                        <img src="images/icons/icon_i.svg" ondblclick="">
+                        <figcaption>
+                            About
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+<!--–––––––––– F o l d e r ––––––––––-->
+<!--
+    <section class="window" id="workWindow">
+        <div class="bar">
+            <p>
+                Portfolio
+            </p>
+            <span>
+                <p onclick="workOff()">
+                    X
+                </p>
+            </span>
+        </div>
+        <div>
+            <figure>
+                <img src="images/icons/icon_imgFile.svg" alt="Editorial Design">
+                <figcaption>
+                    Editorial Design
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/icons/icon_imgFile.svg" alt="Strategic Design">
+                <figcaption>
+                    Strategic Design
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/icons/icon_imgFile.svg" alt="Packaging Design">
+                <figcaption>
+                    Packaging Design
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/icons/icon_imgFile.svg" alt="Information Architechture">
+                <figcaption>
+                    Information Architechture
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/icons/icon_imgFile.svg" alt="Wayfinding Systems">
+                <figcaption>
+                    Wayfinding Systems
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/icons/icon_imgFile.svg" alt="Visual Identity">
+                <figcaption>
+                    Visual Identity
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+-->
+<!--–––––––––– C o n t a c t ––––––––––-->
+    <section class="window" id="contactWindow">
+        <div class="bar">
+            <p>
+                Contact
+            </p>
+            <span>
+                <p onclick="contactOff()">
+                    X
+                </p>
+            </span>
+        </div>
+        <div>
+            <h2>
+                Contact me!
+            </h2>
+            <p>
+                If you'd like to get in contact with me, good luck.
+            </p>
+            <p>
+                <span class="italic">
+                    Brage out
+                </span>
+            </p>
+            <p>
+                <a style="color: white; user-select: text;">
+                    Coming soon
+                </a>
+            </p>
+        </div>
+    </section>
+<!--–––––––––– A b o u t ––––––––––-->
+    <section class="window" id="aboutWindow">
+        <div class="bar">
+            <p>
+                About
+            </p>
+            <span>
+                <p onclick="aboutOff()">
+                    X
+                </p>
+            </span>
+        </div>
+        <div>
+            <h2>
+                About me
+            </h2>
+            <p>
+                Helllo am alien
+            </p>
+            <p>
+                &#128125;
+            </p>
+        </div>
+    </section>
+</body>
+</html>
